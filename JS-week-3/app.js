@@ -8,9 +8,14 @@ const questions = [
     "What city are you in?"
 ];
 
-const answers = [];
+// const answers = [];
 
+// for (let i = 0; i < questions.length; i++) {
+//     var a = prompt(questions[i])
+//     answers.push(a)
+// }
 
+// alert(answers)
 
 // =====================
 
@@ -20,7 +25,18 @@ const answers = [];
 
 const num = [2,5,9,10,23];
 
+function getNum(numAry) {
+    var noOdd = numAry.filter(function(number){
+        return number % 2 === 0
+    })
+    var multiNum = noOdd.map(function(number){
+        return number*3
+    })
 
+    return multiNum[0]
+}
+
+console.log(getNum(num))
 
 // ===================
 
@@ -32,7 +48,18 @@ const num = [2,5,9,10,23];
 // To convert C to F: Divide by 5, then multiply by 9, then add 32
 // To convert F to C: Deduct 32, then multiply by 5, then divide by 9
 
+function cToF(celsius) {
+    var toFahrenheit = (celsius*9)/5+32
+    console.log(celsius + "C " + toFahrenheit + "F")
+}
 
+function ftoC(fahrenheit) {
+    var toCelsius = ((fahrenheit -32)*5)/9
+    console.log(fahrenheit + "F " + toCelsius.toFixed(2) + "C")
+}
+
+cToF(20)
+ftoC(20)
 
 //   ========================
 
@@ -40,7 +67,18 @@ const num = [2,5,9,10,23];
 
 var words = ["cat", "pizza", "javascript"]
 
+var test = function(wordAry){
+    var currentWord = '';
+    wordAry.forEach(function(word){
+        if(currentWord.length < word.length){
+            currentWord = word;
+        }
+    });
 
+    return currentWord;
+}
+
+console.log(test(words))
 
 // =============================
 
