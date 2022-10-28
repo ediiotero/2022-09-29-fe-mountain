@@ -66,11 +66,12 @@ function myFunction() {
     console.log(carName)
     // code here CAN use carName
     if(true) {
+        
         console.log(`can use ${carName}`)
     }
 };
 
-console.log(carName)
+// console.log(carName)
 
 myFunction()
   
