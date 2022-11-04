@@ -14,7 +14,11 @@ const customer = {
     }
 }
 
-
+// console.log(customer.name)
+// console.log(`shipping to ${customer.address.street} ${customer.address.city} ${customer.address.state} ${customer.address.zip}`)
+// customer.orderNum = 111222;
+// customer.age = 44;
+// console.log(customer)
 
 // ==================================
 
@@ -33,3 +37,44 @@ const customer = {
 // *Bonus - Write a loop that will have the hero(use attack) and villain(use magic) attack each other 
 //          reducing the amount of health left and console.log each round until health is at 0.
 
+class Hero {
+    constructor(name, health, power) {
+        this.name = name
+        this.health = health
+        this.power = power
+    }
+
+    attack() {
+        return this.power + 5
+    }
+}
+
+const hero1 = new Hero("Batman", 100, 5)
+
+console.log(hero1)
+console.log(hero1.attack())
+
+class Villain extends Hero {
+    constructor(name, health, power) {
+        super(name, health, power)
+    }
+
+    magic() {
+        return this.power * 2
+    }
+}
+
+const villain1 = new Villain("Black Adam", 125, 8)
+
+console.log(villain1)
+console.log(villain1.magic())
+
+while(hero1.health > 0 && villain1.health > 0) {
+    const villainMagic = villain1.magic();
+    const hero1Attack = hero1.attack();
+
+    hero1.health = hero1.health - villainMagic;
+    villain1.health = villain1.health - hero1Attack;
+
+    console.log(`Current health of ${hero1.name} is ${hero1.health} and ${villain1.name} health is ${villain1.health}`)
+}
