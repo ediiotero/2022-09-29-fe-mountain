@@ -51,3 +51,45 @@ body {
     background-color: coral;
     padding: 1rem;
 }
+
+.large-img {
+    width: 100%;
+}
+
+.red-btn,
+.blue-btn,
+.yellow-btn {
+    padding: .75rem;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    margin-bottom: 2rem;
+}
+
+.red-btn {
+    background-color: red;
+    color: #fff;
+}
+
+.blue-btn {
+    background-color: blue;
+    color: #fff;
+}
+
+.yellow-btn {
+    background-color: yellow;
+}
+
+.red-btn:hover {
+    background-color: rgb(156, 4, 4);
+}
+
+.blue-btn:hover {
+    background-color: rgb(3, 3, 171);
+}
+
+.yellow-btn:hover {
+    background-color: rgb(161, 161, 5);
+}
