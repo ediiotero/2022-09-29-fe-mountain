@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(0, 157, 255);
+}
+
+.article-main {
+    width: 80%;
+    background-color: #fff;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.nav-bar {
+    margin-bottom: 2rem;
+}
+
+.nav-item {
+    border: #000 solid 1px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #000;
+}
+
+.nav-item:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.article,
+.article2 {
+    text-align: left;
+}
+
+.article img {
+    float: left;
+    margin-right: 1rem;
+}
+
+.article2 img {
+    float: right;
+    margin-left: 1rem;
+}
+
+.article p,
+.article2 p {
+    overflow: auto;
+}
+
+.footer {
+    background-color: coral;
+    padding: 1rem;
+}
