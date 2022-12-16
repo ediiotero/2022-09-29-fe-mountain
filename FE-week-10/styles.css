@@ -1,0 +1,12 @@
+#content {
+    width: 60%;
+    margin: auto;
+}
+
+.info-box {
+    background-color: #dedede;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: 600;
+}

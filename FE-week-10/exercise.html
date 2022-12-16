@@ -20,6 +20,20 @@
             
         <script>
 
+            const text = document.getElementById('text')
+            text.style.color = 'red'
+            text.style.backgroundColor = 'black'
+
+            const content = document.createElement('div')
+            const body = document.body
+            body.append(content)
+
+            content.innerText = 'Hello World'
+
+            function styleFont() {
+                content.style.fontSize = '3rem'
+            }
+
         </script>
     </body>
 </html>
