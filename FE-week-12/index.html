@@ -17,19 +17,34 @@
 
     <main class="container mt-4">
         <form id="myForm">
+            <h1>Add Book</h1>
             <div class="mb-3">
-              <label class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+              <label class="form-label">Title</label>
+              <input type="text" class="form-control" id="title">
             </div>
             <div class="mb-3">
-              <label class="form-label">Name</label>
-              <input type="text" class="form-control" id="name">
+              <label class="form-label">Author</label>
+              <input type="text" class="form-control" id="author">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
-        <button id="get-button" class="btn btn-success mt-2">GET</button>
-        <button id="post-button" class="btn btn-warning mt-2">POST</button>
+        <form id="myUpdateForm" class="mt-4">
+            <h1>Update Book</h1>
+            <div class="mb-3">
+              <label class="form-label">ID</label>
+              <input type="text" class="form-control" id="updateId">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Title</label>
+              <input type="text" class="form-control" id="updateTitle">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Author</label>
+              <input type="text" class="form-control" id="updateAuthor">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
 
         <div id="content"></div>
     </main>

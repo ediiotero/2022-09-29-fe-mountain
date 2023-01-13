@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "title": "Put Request",
+      "author": "Eddie"
+    },
+    {
+      "id": 5,
+      "title": "What is JQuery",
+      "author": "Lisa Tang"
+    },
+    {
+      "id": 6,
+      "title": "Getting Started with React",
+      "author": "Jessica Shoemaker"
+    },
+    {
+      "id": 7,
+      "title": "Fursuits",
+      "author": "David Sath"
+    },
+    {
+      "title": "testing",
+      "author": "testing author",
+      "id": 9
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
