@@ -7,7 +7,9 @@ import ClickWord from './ClickWord'
 const StateSample = () => {
     return (
         <div>
-           Sample
+           {/* <PropSample first="Eddie" last="Otero" /> */}
+           {/* <StateColor /> */}
+           {/* <StateCounter /> */}
         </div>
     )
 }
