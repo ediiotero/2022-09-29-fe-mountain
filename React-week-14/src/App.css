@@ -1,0 +1,10 @@
+.App {
+  margin-top: 5rem;
+}
+
+
+.App a {
+  display: block;
+  text-align: center;
+  font-size: larger;
+}
