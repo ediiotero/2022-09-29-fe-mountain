@@ -1,6 +1,7 @@
 var name = "Eddie";
 var batman = true;
 var list = ["Tobi", 2, false];
+var obj = {key: 'value', name: 'Eddie'}
 
 var number = 5;
 var number2 = "5";
