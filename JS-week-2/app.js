@@ -2,6 +2,7 @@
 // var firstName = prompt("What is your name?")
 
 // var isHungry = confirm("Are you hungry?")
+
 // alert(firstName + " hungry? " + isHungry)
 
 // console.log(isHungry)
@@ -9,6 +10,8 @@
 // for(let i = 0; i <= 5; i++) {
 //     console.log(i)
 // }
+
+// Start with on age
 
 // if(age >= 15 && age <= 18) {
 //     alert('you can learn to drive')
@@ -63,22 +66,22 @@
 
 // var count = 0;
 
-/*
-while(count <= 5) {
-    console.log('This count is at ' + count)
-    count++
-}
 
-do{
-    count+=2
-    console.log(count)
-} while(count <= 5)
-*/
+// while(count <= 5) {
+//     console.log('This count is at ' + count)
+//     count++
+// }
+
+// do{
+//     count++
+//     console.log(count)
+// } while(count <= 5)
+
 
 // Make a loop that will console.log even numbers 1-10
 
-for(var i = 1; i <= 10; i++){
-    if(i % 2 === 0){
-        console.log(i)
-    }
-}
+// for(var i = 1; i <= 10; i++){
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+// }
